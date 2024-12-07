@@ -76,7 +76,7 @@ You can also delete the uploaded file from the bucket folder and after removing 
 
 ## Video
 
-![Video Preview](https://github.com/RishiGoswami836/Docker_minio/blob/main/path/to/your-video.gif)
+[Video Preview](https://github.com/RishiGoswami836/Docker_minio/blob/main/Screen%20Recording%202024-12-07%20152422%20(1).mp4)
 
 ## Conclusion
 
