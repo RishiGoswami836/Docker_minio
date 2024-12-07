@@ -74,9 +74,6 @@ You can upload files to your newly created bucket by clicking the Upload button 
 
 You can also delete the uploaded file from the bucket folder and after removing the files the bucket can be deleted.
 
-## Video
-
-[![Video Preview](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://github.com/RishiGoswami836/Docker_minio/blob/main/Screen%20Recording%202024-12-07%20152422.mp4)
 
 ## Conclusion
 
