@@ -38,7 +38,7 @@ Alternately, you can also use the following command:
 
     docker-compose up -d
 
-The above command will be executed whem the below given **.yml** will be created in the designated directory. 
+The above command will be executed when the below given **.yml** will be created in the designated directory. 
 
         version: '3.8'
 
