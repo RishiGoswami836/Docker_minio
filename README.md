@@ -34,6 +34,33 @@ Start a MinIO container using the following command:
       -e MINIO_ROOT_PASSWORD=minioadmin123 \
       minio/minio server /data --console-address ":9001"
 
+Alternately, you can also use the following command:
+
+    docker-compose up -d
+
+The above command will be executed whem the below given **.yml** will be created in the designated directory. 
+
+        version: '3.8'
+
+        services:
+          minio:
+            image: minio/minio:latest
+            container_name: minio
+            ports:
+              - "9000:9000" # MinIO Console/REST API
+              - "9001:9001" # MinIO Web Management Console
+            environment:
+              MINIO_ROOT_USER: minioadmin # Change this to your preferred username
+              MINIO_ROOT_PASSWORD: minioadmin123 # Change this to a secure password
+            volumes:
+              - minio_data:/data
+            command: server /data --console-address ":9001"
+        
+        volumes:
+          minio_data:
+            driver: local
+
+
 #### **Explanation**:
 
 - `-d`: **Run the container in detached mode**.
