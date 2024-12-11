@@ -6,6 +6,9 @@ MinIO is an open-source, high-performance, distributed object storage service de
 
 This project demonstrates how to deploy MinIO as a containerized service using Docker, manage the data, and access it through both the web console and API.
 
+![image](https://github.com/user-attachments/assets/743d040c-eedc-4a79-84c8-f378e9fb6046)
+
+
 ## Learning Objectives
 
 - **Docker**: Learn how to run MinIO as a Docker container.
